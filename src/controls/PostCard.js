@@ -10,7 +10,6 @@ class PostCard extends Component {
         <header className="postcard-header">
 
             <UserButton
-              showTitle={false}
               imgSize="30px">
             </UserButton>
 

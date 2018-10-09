@@ -13,8 +13,14 @@ class UserButton extends Component {
     return (
       <div className="userbutton-main userbutton-has-story">
         <button className="userbutton-btn app-btn">
-          <img className="userbutton-img" src="https://avatars.githubusercontent.com/u/8445?v=3"></img>
-          
+          <div className="userbutton-img-container">
+            <img
+              className="userbutton-img"
+              width={this.imgSize}
+              height={this.imgSize}
+              src="https://avatars.githubusercontent.com/u/8445?v=3">
+            </img>
+          </div>
           {this.showTitle && 
             <h4 className="userbutton-title"> UserName </h4>
           }

@@ -1,32 +1,35 @@
 .userbutton-main {
   position: relative;
-  height: 122px;
   padding: 0 4px;
   margin: 0 1px 0 0px;
 }
 
 .app-btn.userbutton-btn {
-  width: 70px;
+  width: auto;
+  height: auto;
+  display: block;
+  position: relative;
 }
 
+/* width and height must be set in the element */
 .userbutton-img {
-  position: absolute;
+  position: relative;
   display: block;
-  margin-bottom: 8px;
-  margin-top: 4px;
   border-radius: 50%;
-  width: 56px;
-  height: 56px;
   border: 2px solid #fff;
 }
 
-.userbutton-has-story .userbutton-btn::before {
+.userbutton-img-container {
+  position: relative;
+}
+
+.userbutton-has-story .userbutton-img-container::before {
   content: ' ';
   position: absolute;
-  top: 24px;
-  left: 8px;
-  width: 64px;
-  height: 64px;
+  top: -3%;
+  left: -3%;
+  width: 106%;
+  height: 106%;
   border-radius: 50%;
   transform: rotate(45deg);
   background: linear-gradient(to top, #ff7705, #ca007f)
@@ -38,11 +41,10 @@
   font-size: 12px;
   line-height: 14px;
   max-width: 64px;
+  margin: 8px 0 2px 0;
   overflow: hidden;
-  position: absolute;
   text-align: center;
   text-overflow: ellipsis;
-  top: 74px;
   white-space: nowrap;
   font-weight: 400;
 }

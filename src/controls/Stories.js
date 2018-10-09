@@ -9,11 +9,15 @@ class Stories extends Component {
         <span className="stories-title">Histórias</span>
         <div className="stories-list-container">
           <nav className="stories-list">
-
-            <UserButton
-              showTitle={true}>
-            </UserButton>
-
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
+            <UserButton showTitle={true} imgSize="56px"> </UserButton>
           </nav>
         </div>
       </div>

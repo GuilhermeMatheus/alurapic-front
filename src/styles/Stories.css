@@ -6,7 +6,6 @@
 }
 
 .stories-title {
-  position: absolute;
   font-weight: 600;
   font-size: 14px;
   color: #262626;
@@ -15,8 +14,8 @@
 .stories-list-container {
   width: auto;
   overflow: auto hidden;
-  margin: 0 -16px;
-  padding: 0 8px;
+  margin: 0px -16px;
+  padding: 4px 8px;
 }
 
 .stories-list {
