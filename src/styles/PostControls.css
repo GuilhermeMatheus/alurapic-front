@@ -1,0 +1,5 @@
+.postcontrols-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0px -8px;
+}

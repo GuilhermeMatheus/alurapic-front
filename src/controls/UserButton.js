@@ -6,12 +6,13 @@ class UserButton extends Component {
     super();
     
     this.showTitle = props.showTitle;
+    this.hasStory = props.hasStory;
     this.imgSize = props.imgSize || "56px";
   }
   
   render() {
     return (
-      <div className="userbutton-main userbutton-has-story">
+      <div className={"userbutton-main " + (this.hasStory ? "userbutton-has-story" : "")}>
         <button className="userbutton-btn app-btn">
           <div className="userbutton-img-container">
             <img

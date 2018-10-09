@@ -1,35 +1,42 @@
 import React, { Component } from 'react';
 import UserButton from './UserButton';
+import PostContent from './PostContent';
+import PostControls from './PostControls';
+import PostComments from './PostComments';
+import '../styles/PostCard.css';
 
 class PostCard extends Component {
 
   render() {
     return (
       <article className="postcard-main">
-        
+
         <header className="postcard-header">
 
-            <UserButton
-              imgSize="30px">
-            </UserButton>
+          <UserButton imgSize="36px"> </UserButton>
 
           <div className="postcard-username">
-            <h3> UserName </h3>
+            <a> 9gag </a>
           </div>
+
+          <button className="app-btn app-btn-sm btn-postcard-options">
+            <i className="fas fa-ellipsis-h"></i>
+          </button>
         </header>
 
         <div className="postcard-content">
-          Content
+          <PostContent></PostContent>
         </div>
 
-        <div className="postcard-action-buttons">
-          <button className="btn-like">
-            <i className="fas fa-heart"></i>
-          </button>
-        </div>
-
-        <div className="postcard-action-buttons">
-          Comments
+        <div className="postcard-controls">
+          <PostControls></PostControls>
+          <a className="postcard-likecount" href="/p/BosbXaAAzop/liked_by/">
+            <span>160</span> curtida
+          </a>
+          <PostComments></PostComments>
+          <a className="postcard-time" href="/p/BosbXaAAzop/liked_by/">
+            <time> há 33 minutos </time>
+          </a>
         </div>
 
       </article>

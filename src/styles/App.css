@@ -13,10 +13,46 @@ a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
 }
 
+.app-logo {
+  position: relative;
+  height: 30px;
+}
+
 .app-btn {
   height: 44px;
   width: 44px;
+}
+
+.app-btn-big {
   font-size: 30px;
+}
+
+.app-btn-sm {
+  font-size: 17px;
+}
+
+.app-btn-md {
+  font-size: 25px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-stories {
+  margin-top: 44px;
+  order: 1;
+}
+
+.app-timeline {
+  order: 2;
+}
+
+.app-header-container {
+  order: 0;
+  position: fixed;
+  width: 100vw;
 }
 
 .app-header {

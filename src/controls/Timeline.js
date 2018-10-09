@@ -8,7 +8,6 @@ class Timeline extends Component {
         <PostCard></PostCard>
         <PostCard></PostCard>
         <PostCard></PostCard>
-        <PostCard></PostCard>
       </div>
     );
   }
