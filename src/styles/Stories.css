@@ -1,0 +1,27 @@
+.stories-container {
+  background: #fafafa;
+  position: relative;
+  padding: 10px 16px 0px 16px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.stories-title {
+  position: absolute;
+  font-weight: 600;
+  font-size: 14px;
+  color: #262626;
+}
+
+.stories-list-container {
+  width: auto;
+  overflow: auto hidden;
+  margin: 0 -16px;
+  padding: 0 8px;
+}
+
+.stories-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
