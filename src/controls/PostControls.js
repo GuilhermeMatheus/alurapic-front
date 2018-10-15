@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import '../styles/PostControls.css';
 
 class PostControls extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="postcontrols-main">

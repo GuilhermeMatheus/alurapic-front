@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import '../styles/PostContent.css';
 
 class PostContent extends Component {
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section className="postcontent-main">

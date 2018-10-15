@@ -1,0 +1,22 @@
+.navigation-main {
+  order: 4;
+  background: #fff;
+  align-items: stretch;
+  display: flex;
+  margin-bottom: 0px;
+  flex-direction: row;
+  width: 100%;
+  vertical-align: baseline;
+  height: 44px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+.navigation-main button {
+  background: pink;
+  flex-grow: 1;
+}
