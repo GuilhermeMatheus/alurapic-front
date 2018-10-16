@@ -19,7 +19,7 @@ class UserButton extends Component {
               className="userbutton-img"
               width={this.imgSize}
               height={this.imgSize}
-              src="https://avatars.githubusercontent.com/u/8445?v=3">
+              src="https://avatars.githubusercontent.com/u/8089286?v=3">
             </img>
           </div>
           {this.showTitle && 

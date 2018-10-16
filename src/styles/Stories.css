@@ -24,3 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.stories-list .userbutton-main {
+  padding: 0 4px;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TitleBar from './../controls/TitleBar';
 import Stories from './../controls/Stories';
 import Timeline from './../controls/Timeline';
 import './../styles/App.css';

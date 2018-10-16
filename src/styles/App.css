@@ -1,3 +1,7 @@
+body, button, input, textarea {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif
+}
+
 button {
   border:none;
   background-color: transparent;
@@ -10,7 +14,6 @@ a {
 
 .app {
   background-color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
 }
 
 .app-logo {
@@ -75,4 +78,105 @@ a {
 .app-title {
   align-items: center;
   margin: 0
+}
+
+.navigation-main {
+  order: 4;
+  background: #fff;
+  align-items: stretch;
+  display: flex;
+  margin-bottom: 0px;
+  flex-direction: row;
+  width: 100%;
+  vertical-align: baseline;
+  height: 44px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+.navigation-main a {
+  background: pink;
+  flex-grow: 1;
+}
+
+.title-bar-title {
+  flex-grow: 1;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 16px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.profile-header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0px 0px 0px -7px;
+}
+
+.profile-header-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  flex-shrink: 1;
+  width: 100%;
+}
+
+.profile-header-title {
+  font-size: 22px;
+  line-height: 26px;
+  height: 40px;
+  margin-bottom: 12px;
+  margin: 0px;
+  font-weight: 400;
+  flex-grow: 0;
+}
+
+.profile-header-follow-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.profile-fullname {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0px 0px 0px;
+}
+
+.profile-description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-counters-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px 0px;
+}
+
+.profile-counter-caption, .profile-counter-value {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+
+.profile-counter {
+  flex-grow: 1;
+}
+
+.profile-counter-caption {
+  color: #999;
+}
+
+.profile-counter-value {
+  color: #262626;
+  font-weight: 600;
 }
